@@ -7,4 +7,4 @@ df = pd.DataFrame(
 np.random.randn(40, 4),
 columns=["C1", "C2", "C3", "C4"])
 # Bar Chart
-st.line_chart(df)
+st.area_chart(df)
